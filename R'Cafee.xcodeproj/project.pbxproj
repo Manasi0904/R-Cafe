@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D536B0C92CF46C35008FD868 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D536B0C82CF46C35008FD868 /* OTPViewController.swift */; };
+		D537E2F72CF86C6A0039B2EB /* ConfirmPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537E2F62CF86C6A0039B2EB /* ConfirmPinViewController.swift */; };
+		D5D5F75B2CF03C8D00FF8DB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D5F75A2CF03C8D00FF8DB1 /* LoginViewController.swift */; };
+		D5D5F75D2CF0B7E100FF8DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D5F75C2CF0B7E100FF8DB1 /* Assets.xcassets */; };
+		D5DA80C52CF5E0D2002AD768 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA80C42CF5E0D2002AD768 /* PersonalViewController.swift */; };
+		D5E558A22CEF5D5E00633E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E558A12CEF5D5E00633E65 /* AppDelegate.swift */; };
+		D5E558A42CEF5D5E00633E65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E558A32CEF5D5E00633E65 /* SceneDelegate.swift */; };
+		D5E558A62CEF5D5E00633E65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E558A52CEF5D5E00633E65 /* ViewController.swift */; };
+		D5E558AE2CEF5D5F00633E65 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D5E558AD2CEF5D5F00633E65 /* Base */; };
+		D5E558B92CEF5D6000633E65 /* R_CafeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E558B82CEF5D6000633E65 /* R_CafeeTests.swift */; };
+		D5E558C32CEF5D6000633E65 /* R_CafeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E558C22CEF5D6000633E65 /* R_CafeeUITests.swift */; };
+		D5E558C52CEF5D6000633E65 /* R_CafeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E558C42CEF5D6000633E65 /* R_CafeeUITestsLaunchTests.swift */; };
+		D5E558DF2CEF5FC300633E65 /* Circe Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558D22CEF5FC300633E65 /* Circe Regular.ttf */; };
+		D5E558E02CEF5FC300633E65 /* Circe-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558D32CEF5FC300633E65 /* Circe-Bold.otf */; };
+		D5E558E12CEF5FC300633E65 /* Circe-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558D42CEF5FC300633E65 /* Circe-Light.otf */; };
+		D5E558E22CEF5FC300633E65 /* Gotham Book Font.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558D52CEF5FC300633E65 /* Gotham Book Font.otf */; };
+		D5E558E32CEF5FC300633E65 /* Gotham Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558D62CEF5FC300633E65 /* Gotham Medium.otf */; };
+		D5E558E42CEF5FC300633E65 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558D72CEF5FC300633E65 /* Inter-Regular.ttf */; };
+		D5E558E62CEF5FC300633E65 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558D92CEF5FC300633E65 /* OpenSans-Bold.ttf */; };
+		D5E558E72CEF5FC300633E65 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558DA2CEF5FC300633E65 /* Poppins-Medium.ttf */; };
+		D5E558E82CEF5FC300633E65 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558DB2CEF5FC300633E65 /* Poppins-Regular.ttf */; };
+		D5E558E92CEF5FC300633E65 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E558DC2CEF5FC300633E65 /* Poppins-SemiBold.ttf */; };
+		D5ECE1CB2D0AFAC60069F334 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ECE1CA2D0AFAC60069F334 /* NewViewController.swift */; };
+		D5F480ED2CF6F1AE0062D465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F480EC2CF6F1AE0062D465 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E558B52CEF5D6000633E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E558962CEF5D5E00633E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E5589D2CEF5D5E00633E65;
+			remoteInfo = "R'Cafee";
+		};
+		D5E558BF2CEF5D6000633E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E558962CEF5D5E00633E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E5589D2CEF5D5E00633E65;
+			remoteInfo = "R'Cafee";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D536B0C82CF46C35008FD868 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		D537E2F62CF86C6A0039B2EB /* ConfirmPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPinViewController.swift; sourceTree = "<group>"; };
+		D5D5F75A2CF03C8D00FF8DB1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D5D5F75C2CF0B7E100FF8DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5DA80C42CF5E0D2002AD768 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		D5E5589E2CEF5D5E00633E65 /* R'Cafee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R'Cafee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E558A12CEF5D5E00633E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5E558A32CEF5D5E00633E65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5E558A52CEF5D5E00633E65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5E558AD2CEF5D5F00633E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5E558AF2CEF5D5F00633E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E558B42CEF5D6000633E65 /* R'CafeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R'CafeeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E558B82CEF5D6000633E65 /* R_CafeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_CafeeTests.swift; sourceTree = "<group>"; };
+		D5E558BE2CEF5D6000633E65 /* R'CafeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R'CafeeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E558C22CEF5D6000633E65 /* R_CafeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_CafeeUITests.swift; sourceTree = "<group>"; };
+		D5E558C42CEF5D6000633E65 /* R_CafeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_CafeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5E558D22CEF5FC300633E65 /* Circe Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe Regular.ttf"; sourceTree = "<group>"; };
+		D5E558D32CEF5FC300633E65 /* Circe-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-Bold.otf"; sourceTree = "<group>"; };
+		D5E558D42CEF5FC300633E65 /* Circe-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-Light.otf"; sourceTree = "<group>"; };
+		D5E558D52CEF5FC300633E65 /* Gotham Book Font.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Book Font.otf"; sourceTree = "<group>"; };
+		D5E558D62CEF5FC300633E65 /* Gotham Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Medium.otf"; sourceTree = "<group>"; };
+		D5E558D72CEF5FC300633E65 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		D5E558D92CEF5FC300633E65 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		D5E558DA2CEF5FC300633E65 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D5E558DB2CEF5FC300633E65 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		D5E558DC2CEF5FC300633E65 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		D5ECE1CA2D0AFAC60069F334 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		D5F480EC2CF6F1AE0062D465 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E5589B2CEF5D5E00633E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E558B12CEF5D6000633E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E558BB2CEF5D6000633E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5E558952CEF5D5E00633E65 = {
+			isa = PBXGroup;
+			children = (
+				D5E558A02CEF5D5E00633E65 /* R'Cafee */,
+				D5E558B72CEF5D6000633E65 /* R'CafeeTests */,
+				D5E558C12CEF5D6000633E65 /* R'CafeeUITests */,
+				D5E5589F2CEF5D5E00633E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E5589F2CEF5D5E00633E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E5589E2CEF5D5E00633E65 /* R'Cafee.app */,
+				D5E558B42CEF5D6000633E65 /* R'CafeeTests.xctest */,
+				D5E558BE2CEF5D6000633E65 /* R'CafeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E558A02CEF5D5E00633E65 /* R'Cafee */ = {
+			isa = PBXGroup;
+			children = (
+				D5D5F75C2CF0B7E100FF8DB1 /* Assets.xcassets */,
+				D5E558DE2CEF5FC300633E65 /* Fonts */,
+				D5E558A12CEF5D5E00633E65 /* AppDelegate.swift */,
+				D5E558A32CEF5D5E00633E65 /* SceneDelegate.swift */,
+				D5F480EC2CF6F1AE0062D465 /* Main.storyboard */,
+				D5E558AC2CEF5D5F00633E65 /* LaunchScreen.storyboard */,
+				D5E558AF2CEF5D5F00633E65 /* Info.plist */,
+				D5E558A52CEF5D5E00633E65 /* ViewController.swift */,
+				D5D5F75A2CF03C8D00FF8DB1 /* LoginViewController.swift */,
+				D536B0C82CF46C35008FD868 /* OTPViewController.swift */,
+				D5DA80C42CF5E0D2002AD768 /* PersonalViewController.swift */,
+				D537E2F62CF86C6A0039B2EB /* ConfirmPinViewController.swift */,
+				D5ECE1CA2D0AFAC60069F334 /* NewViewController.swift */,
+			);
+			path = "R'Cafee";
+			sourceTree = "<group>";
+		};
+		D5E558B72CEF5D6000633E65 /* R'CafeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E558B82CEF5D6000633E65 /* R_CafeeTests.swift */,
+			);
+			path = "R'CafeeTests";
+			sourceTree = "<group>";
+		};
+		D5E558C12CEF5D6000633E65 /* R'CafeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E558C22CEF5D6000633E65 /* R_CafeeUITests.swift */,
+				D5E558C42CEF5D6000633E65 /* R_CafeeUITestsLaunchTests.swift */,
+			);
+			path = "R'CafeeUITests";
+			sourceTree = "<group>";
+		};
+		D5E558DE2CEF5FC300633E65 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5E558D22CEF5FC300633E65 /* Circe Regular.ttf */,
+				D5E558D32CEF5FC300633E65 /* Circe-Bold.otf */,
+				D5E558D42CEF5FC300633E65 /* Circe-Light.otf */,
+				D5E558D52CEF5FC300633E65 /* Gotham Book Font.otf */,
+				D5E558D62CEF5FC300633E65 /* Gotham Medium.otf */,
+				D5E558D72CEF5FC300633E65 /* Inter-Regular.ttf */,
+				D5E558D92CEF5FC300633E65 /* OpenSans-Bold.ttf */,
+				D5E558DA2CEF5FC300633E65 /* Poppins-Medium.ttf */,
+				D5E558DB2CEF5FC300633E65 /* Poppins-Regular.ttf */,
+				D5E558DC2CEF5FC300633E65 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E5589D2CEF5D5E00633E65 /* R'Cafee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E558C82CEF5D6000633E65 /* Build configuration list for PBXNativeTarget "R'Cafee" */;
+			buildPhases = (
+				D5E5589A2CEF5D5E00633E65 /* Sources */,
+				D5E5589B2CEF5D5E00633E65 /* Frameworks */,
+				D5E5589C2CEF5D5E00633E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "R'Cafee";
+			productName = "R'Cafee";
+			productReference = D5E5589E2CEF5D5E00633E65 /* R'Cafee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E558B32CEF5D6000633E65 /* R'CafeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E558CB2CEF5D6000633E65 /* Build configuration list for PBXNativeTarget "R'CafeeTests" */;
+			buildPhases = (
+				D5E558B02CEF5D6000633E65 /* Sources */,
+				D5E558B12CEF5D6000633E65 /* Frameworks */,
+				D5E558B22CEF5D6000633E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E558B62CEF5D6000633E65 /* PBXTargetDependency */,
+			);
+			name = "R'CafeeTests";
+			productName = "R'CafeeTests";
+			productReference = D5E558B42CEF5D6000633E65 /* R'CafeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5E558BD2CEF5D6000633E65 /* R'CafeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E558CE2CEF5D6000633E65 /* Build configuration list for PBXNativeTarget "R'CafeeUITests" */;
+			buildPhases = (
+				D5E558BA2CEF5D6000633E65 /* Sources */,
+				D5E558BB2CEF5D6000633E65 /* Frameworks */,
+				D5E558BC2CEF5D6000633E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E558C02CEF5D6000633E65 /* PBXTargetDependency */,
+			);
+			name = "R'CafeeUITests";
+			productName = "R'CafeeUITests";
+			productReference = D5E558BE2CEF5D6000633E65 /* R'CafeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E558962CEF5D5E00633E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D5E5589D2CEF5D5E00633E65 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D5E558B32CEF5D6000633E65 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D5E5589D2CEF5D5E00633E65;
+					};
+					D5E558BD2CEF5D6000633E65 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D5E5589D2CEF5D5E00633E65;
+					};
+				};
+			};
+			buildConfigurationList = D5E558992CEF5D5E00633E65 /* Build configuration list for PBXProject "R'Cafee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E558952CEF5D5E00633E65;
+			productRefGroup = D5E5589F2CEF5D5E00633E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E5589D2CEF5D5E00633E65 /* R'Cafee */,
+				D5E558B32CEF5D6000633E65 /* R'CafeeTests */,
+				D5E558BD2CEF5D6000633E65 /* R'CafeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E5589C2CEF5D5E00633E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E558E62CEF5FC300633E65 /* OpenSans-Bold.ttf in Resources */,
+				D5E558E92CEF5FC300633E65 /* Poppins-SemiBold.ttf in Resources */,
+				D5E558E02CEF5FC300633E65 /* Circe-Bold.otf in Resources */,
+				D5E558E82CEF5FC300633E65 /* Poppins-Regular.ttf in Resources */,
+				D5E558E42CEF5FC300633E65 /* Inter-Regular.ttf in Resources */,
+				D5E558E32CEF5FC300633E65 /* Gotham Medium.otf in Resources */,
+				D5D5F75D2CF0B7E100FF8DB1 /* Assets.xcassets in Resources */,
+				D5F480ED2CF6F1AE0062D465 /* Main.storyboard in Resources */,
+				D5E558E12CEF5FC300633E65 /* Circe-Light.otf in Resources */,
+				D5E558E22CEF5FC300633E65 /* Gotham Book Font.otf in Resources */,
+				D5E558DF2CEF5FC300633E65 /* Circe Regular.ttf in Resources */,
+				D5E558AE2CEF5D5F00633E65 /* Base in Resources */,
+				D5E558E72CEF5FC300633E65 /* Poppins-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E558B22CEF5D6000633E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E558BC2CEF5D6000633E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E5589A2CEF5D5E00633E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D536B0C92CF46C35008FD868 /* OTPViewController.swift in Sources */,
+				D5D5F75B2CF03C8D00FF8DB1 /* LoginViewController.swift in Sources */,
+				D5E558A62CEF5D5E00633E65 /* ViewController.swift in Sources */,
+				D5ECE1CB2D0AFAC60069F334 /* NewViewController.swift in Sources */,
+				D5E558A22CEF5D5E00633E65 /* AppDelegate.swift in Sources */,
+				D5DA80C52CF5E0D2002AD768 /* PersonalViewController.swift in Sources */,
+				D5E558A42CEF5D5E00633E65 /* SceneDelegate.swift in Sources */,
+				D537E2F72CF86C6A0039B2EB /* ConfirmPinViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E558B02CEF5D6000633E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E558B92CEF5D6000633E65 /* R_CafeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E558BA2CEF5D6000633E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E558C52CEF5D6000633E65 /* R_CafeeUITestsLaunchTests.swift in Sources */,
+				D5E558C32CEF5D6000633E65 /* R_CafeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E558B62CEF5D6000633E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E5589D2CEF5D5E00633E65 /* R'Cafee */;
+			targetProxy = D5E558B52CEF5D6000633E65 /* PBXContainerItemProxy */;
+		};
+		D5E558C02CEF5D6000633E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E5589D2CEF5D5E00633E65 /* R'Cafee */;
+			targetProxy = D5E558BF2CEF5D6000633E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5E558AC2CEF5D5F00633E65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E558AD2CEF5D5F00633E65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5E558C62CEF5D6000633E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E558C72CEF5D6000633E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E558C92CEF5D6000633E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "R'Cafee/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "manasi.R-Cafee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E558CA2CEF5D6000633E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "R'Cafee/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "manasi.R-Cafee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5E558CC2CEF5D6000633E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "manasi.R-CafeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/R'Cafee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/R'Cafee";
+			};
+			name = Debug;
+		};
+		D5E558CD2CEF5D6000633E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "manasi.R-CafeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/R'Cafee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/R'Cafee";
+			};
+			name = Release;
+		};
+		D5E558CF2CEF5D6000633E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "manasi.R-CafeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "R'Cafee";
+			};
+			name = Debug;
+		};
+		D5E558D02CEF5D6000633E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "manasi.R-CafeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "R'Cafee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E558992CEF5D5E00633E65 /* Build configuration list for PBXProject "R'Cafee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E558C62CEF5D6000633E65 /* Debug */,
+				D5E558C72CEF5D6000633E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E558C82CEF5D6000633E65 /* Build configuration list for PBXNativeTarget "R'Cafee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E558C92CEF5D6000633E65 /* Debug */,
+				D5E558CA2CEF5D6000633E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E558CB2CEF5D6000633E65 /* Build configuration list for PBXNativeTarget "R'CafeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E558CC2CEF5D6000633E65 /* Debug */,
+				D5E558CD2CEF5D6000633E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E558CE2CEF5D6000633E65 /* Build configuration list for PBXNativeTarget "R'CafeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E558CF2CEF5D6000633E65 /* Debug */,
+				D5E558D02CEF5D6000633E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E558962CEF5D5E00633E65 /* Project object */;
+}
